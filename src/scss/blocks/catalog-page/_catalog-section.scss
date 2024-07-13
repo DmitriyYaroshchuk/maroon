@@ -1,0 +1,56 @@
+.catalog {
+  padding-bottom: 70px;
+
+  @include smallTablet {
+    padding-bottom: 0;
+  }
+}
+
+.catalog__info {
+  padding: 40px 0;
+}
+
+
+.catalog__wrapper {
+  display: flex;
+  align-items: center;
+  transition: margin-bottom 0.3s ease-in;
+}
+
+.catalog__title {
+  font-size: 36px;
+  line-height: 1.3;
+
+  @include laptop {
+    font-size: 27px;
+  }
+
+  @include mobile {
+    font-size: 25px;
+  }
+}
+
+.catalog__btn {
+  max-height: 41px;
+  transform: scale(1);
+  max-width: 141px;
+  margin-left: auto;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.catalog__btn-close {
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transform: scale(0);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+
+.catalog__slider {
+  overflow: hidden;
+}

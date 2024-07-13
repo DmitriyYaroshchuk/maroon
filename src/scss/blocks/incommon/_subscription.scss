@@ -1,0 +1,49 @@
+.subscription {
+  padding: 70px 0;
+  background-color: #F8F8F6;
+}
+
+.subscription__inner {
+  display: flex;
+  align-items: center;
+  gap: 71px;
+
+  @include mobile {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+}
+
+.subscription__collage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+}
+
+.subscription__content {
+  flex-basis: 381px;
+
+  @include mobile {
+    text-align: center;
+    flex-basis: auto;
+  }
+}
+
+.subscription__title {
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.subscription__text {
+  line-height: 1.45;
+  margin-bottom: 40px;
+}
+
+.subscription__btn {
+  max-width: 170px;
+
+  @include mobile {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,36 @@
+<form class="basket-form" action="mail.php">
+    <h2 class="custom-title">Форма для заказа</h2>
+    <input type="hidden" name="admin_email[]" value="dima030215@gmail.com">
+    <input type="hidden" name="form_subject" value="Заявка с сайта">
+    <label class="basket-from__label">
+        <input
+                class="basket-from__input basket-from__input-name"
+                type="text"
+                name="name"
+                placeholder="Введите ваше имя"
+                autocomplete="on"
+                required>
+    </label>
+    <label class="basket-from__label">
+        <input
+                class="basket-from__input basket-from__input-surname"
+                type="text"
+                name="surname"
+                placeholder="Введите вашу фамилию"
+                autocomplete="on"
+                required>
+    </label>
+    <label class="basket-from__label">
+        <input
+                class="basket-from__input basket-from__input-tel"
+                type="tel"
+                name="tel"
+                placeholder="Введите ваш телефон"
+                required>
+    </label>
+    <div class="basket-form__buttons">
+        <a href="../catalog.html" class="custom-btn basket-form__continue">Продолжить покупки</a>
+        <button class="custom-btn btn-send">Оформить заказ</button>
+    </div>
+
+</form>

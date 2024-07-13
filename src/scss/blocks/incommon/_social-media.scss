@@ -1,0 +1,9 @@
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  @include laptop {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,78 @@
+.basket-form {
+  max-width: 500px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  padding: 50px 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.basket-from__label {
+  width: 100%;
+}
+
+.basket-from__input {
+  padding: 15px;
+  border: 1px solid saddlebrown;
+  border-radius: 15px;
+
+  color: var(--text-color);
+  font-family: var(--font-main);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.1;
+
+  text-align: center;
+  width: 100%;
+}
+
+.basket-form__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.basket-form__continue {
+  max-width: 220px;
+  padding: 20px 5px;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-send {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 17px;
+  color: whitesmoke;
+  background-color: saddlebrown;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+  max-width: 200px;
+}
+
+.btn-send:hover {
+  border: 1px solid #ff6633;
+  background-color: #ff6633;
+  color: #fff;
+}
+
+.just-validate-error-label {
+  margin-top: 10px;
+  padding-left: 20px;
+}

@@ -1,0 +1,12 @@
+.proposal {
+  padding-bottom: 140px;
+
+  @include tablet {
+    padding-bottom: 70px;
+  }
+}
+
+.proposal__title {
+  text-align: center;
+  margin-bottom: 60px;
+}

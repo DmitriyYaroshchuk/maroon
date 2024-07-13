@@ -1,0 +1,86 @@
+[
+  {
+    "img": "01.jpg",
+    "title": "Clean",
+    "price": "490 грн.",
+    "description": "маска для лица",
+    "capacity": "100g"
+  },
+  {
+    "img": "02.jpg",
+    "title": "Lotos",
+    "price": "890 грн.",
+    "description": "маска для лица",
+    "capacity": "50ml"
+  },
+  {
+    "img": "03.jpg",
+    "title": "Lavender",
+    "price": "290 грн.",
+    "description": "мыло ручной работы",
+    "capacity": "50g"
+  },
+  {
+    "img": "04.jpg",
+    "title": "Coconut",
+    "price": "990  грн.",
+    "description": "масло для тела",
+    "capacity": "300ml"
+  },
+  {
+    "img": "01.jpg",
+    "title": "Clean",
+    "price": "490 грн.",
+    "description": "маска для лица",
+    "capacity": "100g"
+  },
+  {
+    "img": "02.jpg",
+    "title": "Lotos",
+    "price": "890 грн.",
+    "description": "маска для лица",
+    "capacity": "50ml"
+  },
+  {
+    "img": "03.jpg",
+    "title": "Lavender",
+    "price": "290 грн.",
+    "description": "мыло ручной работы",
+    "capacity": "50g"
+  },
+  {
+    "img": "04.jpg",
+    "title": "Coconut",
+    "price": "990  грн.",
+    "description": "масло для тела",
+    "capacity": "300ml"
+  },
+  {
+    "img": "01.jpg",
+    "title": "Clean",
+    "price": "490 грн.",
+    "description": "маска для лица",
+    "capacity": "100g"
+  },
+  {
+    "img": "02.jpg",
+    "title": "Lotos",
+    "price": "890 грн.",
+    "description": "маска для лица",
+    "capacity": "50ml"
+  },
+  {
+    "img": "03.jpg",
+    "title": "Lavender",
+    "price": "290 грн.",
+    "description": "мыло ручной работы",
+    "capacity": "50g"
+  },
+  {
+    "img": "04.jpg",
+    "title": "Coconut",
+    "price": "990  грн.",
+    "description": "масло для тела",
+    "capacity": "300ml"
+  }
+]

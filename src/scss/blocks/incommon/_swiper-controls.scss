@@ -1,0 +1,57 @@
+.swiper-pagination {
+  position: static;
+}
+
+.swiper-catalog .swiper-wrapper,
+.swiper-proposal .swiper-wrapper {
+  margin-bottom: 50px;
+}
+
+.swiper-controls .swiper-pagination {
+  position: static;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.45;
+
+  color: #9A9DA0;
+
+  max-width: 92px;
+  width: 100%;
+  margin-left: 95px;
+
+  @include mobile {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+.swiper-controls .swiper-pagination-current {
+  color: var(--text-color);
+}
+
+.swiper-controls {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.swiper-controls::before {
+  content: '';
+  top: 0;
+  left: 0;
+}
+
+.swiper-controls__btns {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.swiper-controls__btns .swiper-controls__btn {
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+html {
+	scroll-behavior: smooth;
+	background-color: rgb(39, 39, 39);
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	font-family: var(--font-main);
+	font-style: normal;
+	font-weight: 400;
+	text-wrap: balance;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+}
+
+code {
+	background-color: #e9f1f6;
+	padding: 0.2rem;
+	border-radius: 4px;
+}
+
+pre.code {
+	overflow-x: auto;
+	background-color: #e9f1f6;
+	padding: 1rem;
+	border-radius: 4px;
+}
+
+button {
+	cursor: pointer;
+}
+
+li {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+a {
+	color: var(--text-color);
+}
+

@@ -1,0 +1,25 @@
+.basket {
+  padding: 100px 0;
+}
+
+.basket__title {
+  text-align: center;
+
+  font-size: 40px;
+  line-height: 1.1;
+
+  margin-bottom: 50px;
+}
+
+.basket__total-price {
+  max-width: 800px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  text-align: right;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+}

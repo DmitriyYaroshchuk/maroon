@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "img": "01.jpg",
+    "title": "High",
+    "price": "990 грн.",
+    "description": "крем для лица",
+    "capacity": "50ml"
+  },
+  {
+    "id": 2,
+    "img": "02.jpg",
+    "title": "Rest",
+    "price": "690 грн.",
+    "description": "минеральная пудра",
+    "capacity": "20g"
+  },
+  {
+    "id": 3,
+    "img": "03.jpg",
+    "title": "Rose",
+    "price": "890 грн.",
+    "description": "крем для лица",
+    "capacity": "50ml"
+  },
+  {
+    "id": 4,
+    "img": "04.jpg",
+    "title": "Milk",
+    "price": "790 грн.",
+    "description": "масло для тела",
+    "capacity": "150ml"
+  },
+  {
+    "id": 5,
+    "img": "05.jpg",
+    "title": "Paradise",
+    "price": "590 грн.",
+    "description": "минеральная пудра",
+    "capacity": "15g"
+  },
+  {
+    "id": 6,
+    "img": "06.jpg",
+    "title": "Sun",
+    "price": "90 грн.",
+    "description": "бомбочка для ванны",
+    "capacity": "20g"
+  },
+  {
+    "id": 7,
+    "img": "07.jpg",
+    "title": "Violet",
+    "price": "890 грн.",
+    "description": "крем для лица",
+    "capacity": "50ml"
+  },
+  {
+    "id": 8,
+    "img": "08.jpg",
+    "title": "Clean",
+    "price": "490 грн.",
+    "description": "маска для лица",
+    "capacity": "100g"
+  },
+  {
+    "id": 9,
+    "img": "09.jpg",
+    "title": "Coconut",
+    "price": "990 грн.",
+    "description": "масло для тела",
+    "capacity": "300ml"
+  },
+  {
+    "id": 10,
+    "img": "10.jpg",
+    "title": "Lavender",
+    "price": "290 грн.",
+    "description": "мыло ручной работы",
+    "capacity": "50g"
+  },
+  {
+    "id": 11,
+    "img": "11.jpg",
+    "title": "Lotos",
+    "price": "890 грн.",
+    "description": "маска для лица",
+    "capacity": "50ml"
+  },
+  {
+    "id": 12,
+    "img": "12.jpg",
+    "title": "Earth",
+    "price": "90 грн.",
+    "description": "бомбочка для ванны",
+    "capacity": "20g"
+  },
+  {
+    "id": 13,
+    "img": "01.jpg",
+    "title": "High",
+    "price": "990 грн.",
+    "description": "крем для лица",
+    "capacity": "50ml"
+  },
+  {
+    "id": 14,
+    "img": "02.jpg",
+    "title": "Rest",
+    "price": "690 грн.",
+    "description": "минеральная пудра",
+    "capacity": "20g"
+  },
+  {
+    "id": 15,
+    "img": "03.jpg",
+    "title": "Rose",
+    "price": "890 грн.",
+    "description": "крем для лица",
+    "capacity": "50ml"
+  },
+  {
+    "id": 16,
+    "img": "04.jpg",
+    "title": "Milk",
+    "price": "790 грн.",
+    "description": "масло для тела",
+    "capacity": "150ml"
+  },
+  {
+    "id": 17,
+    "img": "05.jpg",
+    "title": "Paradise",
+    "price": "590 грн.",
+    "description": "минеральная пудра",
+    "capacity": "15g"
+  },
+  {
+    "id": 18,
+    "img": "06.jpg",
+    "title": "Sun",
+    "price": "90 грн.",
+    "description": "бомбочка для ванны",
+    "capacity": "20g"
+  },
+  {
+    "id": 19,
+    "img": "07.jpg",
+    "title": "Violet",
+    "price": "890 грн.",
+    "description": "крем для лица",
+    "capacity": "50ml"
+  },
+  {
+    "id": 20,
+    "img": "08.jpg",
+    "title": "Clean",
+    "price": "490 грн.",
+    "description": "маска для лица",
+    "capacity": "100g"
+  },
+  {
+    "id": 21,
+    "img": "09.jpg",
+    "title": "Coconut",
+    "price": "990 грн.",
+    "description": "масло для тела",
+    "capacity": "300ml"
+  },
+  {
+    "id": 22,
+    "img": "10.jpg",
+    "title": "Lavender",
+    "price": "290 грн.",
+    "description": "мыло ручной работы",
+    "capacity": "50g"
+  },
+  {
+    "id": 23,
+    "img": "11.jpg",
+    "title": "Lotos",
+    "price": "890 грн.",
+    "description": "маска для лица",
+    "capacity": "50ml"
+  },
+  {
+    "id": 24,
+    "img": "12.jpg",
+    "title": "Earth",
+    "price": "90 грн.",
+    "description": "бомбочка для ванны",
+    "capacity": "20g"
+  }
+]

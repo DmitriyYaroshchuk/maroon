@@ -1,0 +1,17 @@
+<section class="catalog">
+    <div class="container">
+        <div class="catalog__info">
+            <div class="catalog__wrapper">
+                <h2 class="catalog__title custom-title">Каталог</h2>
+                <button class="catalog__btn custom-btn" id="catalogBtnOpen">Фильтр</button>
+                <button class="catalog__btn-close" id="catalogBtnClose">
+                    <img src="./../../img/icons/close.svg" alt="Close">
+                </button>
+            </div>
+            @@include('./catalog-filter.html')
+        </div>
+        <div class="catalog__slider">
+            @@include('./templates/catalog-slider.html')
+        </div>
+    </div>
+</section>

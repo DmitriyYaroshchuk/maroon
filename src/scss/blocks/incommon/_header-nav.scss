@@ -1,0 +1,86 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  padding: 40px 0;
+  margin-bottom: 30px;
+
+  @include laptop{
+    justify-content: space-between;
+  }
+
+  @include mobile {
+    margin-bottom: 0;
+  }
+}
+
+.header__nav .nav__item-shops {
+  display: none;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+
+  margin-left: auto;
+
+  @include laptop {
+    display: none;
+  }
+}
+
+.nav__link {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--text-color);
+}
+
+.nav__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--text-color);
+  bottom: -2px;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.4s ease-in;
+}
+
+.nav__link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.nav__buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  @include laptop {
+    display: none;
+  }
+}
+
+.nav__btn--basket {
+  position: relative;
+}
+
+.nav__btn-count--basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  border-radius: 50%;
+  background-color: saddlebrown;
+  color: white;
+  width: 18px;
+  height: 18px;
+}

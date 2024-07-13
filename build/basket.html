@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maroon</title>
+    <link rel="stylesheet" href="./css/basket.css"/>
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <nav class="header__nav">
+    <a href="./../index.html" class="logo">
+    <img src="./img/icons/logo.svg" alt="Maroon">
+</a>
+    <ul class="nav__list">
+    <li class="nav__item"><a href="../catalog.html" class="nav__link">Каталог</a></li>
+    <li class="nav__item"><a href="!#" class="nav__link">О&#160;нас</a></li>
+<!--    <li class="nav__item nav__item-shops"><a href="!#" class="nav__link">Магазины</a></li>-->
+    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+</ul>
+    <div class="nav__buttons">
+        <button class="nav__btn nav__btn--user">
+            <img src="./img/icons/user.svg" alt="User">
+        </button>
+        <a href="../basket.html" class="nav__btn nav__btn--basket">
+            <img src="./img/icons/basket.svg" alt="Basket">
+            <span class="nav__btn-count--basket">0</span>
+        </a>
+    </div>
+    <button class="mobile-nav-btn">
+        <span class="nav-icon"></span>
+    </button>
+</nav>
+    </div>
+</header>
+<div class="mobile-nav">
+    <a href="./../index.html" class="logo">
+    <img src="./img/icons/logo.svg" alt="Maroon">
+</a>
+    <ul class="nav__list">
+    <li class="nav__item"><a href="../catalog.html" class="nav__link">Каталог</a></li>
+    <li class="nav__item"><a href="!#" class="nav__link">О&#160;нас</a></li>
+<!--    <li class="nav__item nav__item-shops"><a href="!#" class="nav__link">Магазины</a></li>-->
+    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+</ul>
+    <div class="nav__buttons">
+        <button class="nav__btn nav__btn--user">
+            <img src="./img/icons/user.svg" alt="User">
+        </button>
+        <a href="../basket.html" class="nav__btn nav__btn--basket">
+            <img src="./img/icons/basket.svg" alt="Basket">
+            <span class="nav__btn-count--basket">0</span>
+        </a>
+    </div>
+</div>
+
+    <main>
+        <section class="basket">
+    <div class="container">
+        <div class="basket__inner">
+            <h1 class="basket__title custom-title">Корзина</h1>
+            <div class="cart"></div>
+            <div class="basket__total-price">
+                Итог:
+                <span></span>
+            </div>
+            <form class="basket-form" action="mail.php">
+    <h2 class="custom-title">Форма для заказа</h2>
+    <input type="hidden" name="admin_email[]" value="dima030215@gmail.com">
+    <input type="hidden" name="form_subject" value="Заявка с сайта">
+    <label class="basket-from__label">
+        <input
+                class="basket-from__input basket-from__input-name"
+                type="text"
+                name="name"
+                placeholder="Введите ваше имя"
+                autocomplete="on"
+                required>
+    </label>
+    <label class="basket-from__label">
+        <input
+                class="basket-from__input basket-from__input-surname"
+                type="text"
+                name="surname"
+                placeholder="Введите вашу фамилию"
+                autocomplete="on"
+                required>
+    </label>
+    <label class="basket-from__label">
+        <input
+                class="basket-from__input basket-from__input-tel"
+                type="tel"
+                name="tel"
+                placeholder="Введите ваш телефон"
+                required>
+    </label>
+    <div class="basket-form__buttons">
+        <a href="../catalog.html" class="custom-btn basket-form__continue">Продолжить покупки</a>
+        <button class="custom-btn btn-send">Оформить заказ</button>
+    </div>
+
+</form>
+        </div>
+    </div>
+</section>
+        <section class="contacts" id="contacts">
+    <div class="container">
+        <div class="contacts__inner">
+            <div class="contacts__content">
+                <h3 class="contacts__title custom-title">Контакты</h3>
+                <div class="contacts__wrapper">
+                    <h5 class="contacts__subtitle">Адрес</h5>
+                    <p class="contacts__text">
+                        Одеса,
+                        <br>
+                        ул.&#160;Большая Арнаутская, 19
+                    </p>
+                </div>
+                <div class="contacts__wrapper">
+                    <h5 class="contacts__subtitle">Телефон</h5>
+                    <a class="contacts__text" href="tel:380 000 00 00 000">+ 380 000 00 00 000</a>
+                </div>
+                <div class="contacts__wrapper">
+                    <h5 class="contacts__subtitle">E-mail</h5>
+                    <a class="contacts__text" href="mailto:info@maroon.com">info@maroon.com</a>
+                </div>
+                <div class="social-media">
+    <button class="social-media__btn">
+        <a href="!#" class="social-media__btn-link">
+            <img src="./img/social-media/facebook.svg" alt="Facebook">
+        </a>
+    </button>
+    <button class="social-media__btn">
+        <a href="!#" class="social-media__btn-link">
+            <img src="./img/social-media/instagram.svg" alt="Instagram">
+        </a>
+    </button>
+    <button class="social-media__btn">
+        <a href="!#" class="social-media__btn-link">
+            <img src="./img/social-media/twitter.svg" alt="Twitter">
+        </a>
+    </button>
+</div>
+
+            </div>
+            <iframe
+                    class="contacts__iframe"
+                    src="https://gisfile.com/map/"
+                    frameborder="0"
+                    allowfullscreen
+            ></iframe>
+        </div>
+
+    </div>
+</section>
+        <div class="modal-thanks">
+    <button class="modal-thanks__button">
+        <img src="./img/icons/close-error.svg" alt="check">
+    </button>
+    <img class="modal-thanks__image" src="./img/icons/check.svg" alt="check">
+    <h3 class="modal-thanks__title custom-title">Спасибо за&#160;покупку :)</h3>
+    <p class="modal-thanks__text custom-text">Мы&#160;с&#160;вами скоро свяжемся</p>
+</div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-nav">
+            <a href="./../index.html" class="logo">
+    <img src="./img/icons/logo.svg" alt="Maroon">
+</a>
+            <ul class="nav__list">
+    <li class="nav__item"><a href="../catalog.html" class="nav__link">Каталог</a></li>
+    <li class="nav__item"><a href="!#" class="nav__link">О&#160;нас</a></li>
+<!--    <li class="nav__item nav__item-shops"><a href="!#" class="nav__link">Магазины</a></li>-->
+    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+</ul>
+            <div class="social-media">
+    <button class="social-media__btn">
+        <a href="!#" class="social-media__btn-link">
+            <img src="./img/social-media/facebook.svg" alt="Facebook">
+        </a>
+    </button>
+    <button class="social-media__btn">
+        <a href="!#" class="social-media__btn-link">
+            <img src="./img/social-media/instagram.svg" alt="Instagram">
+        </a>
+    </button>
+    <button class="social-media__btn">
+        <a href="!#" class="social-media__btn-link">
+            <img src="./img/social-media/twitter.svg" alt="Twitter">
+        </a>
+    </button>
+</div>
+        </div>
+        <div class="footer__copyright">
+            <p>Maroon @ 2024 Все права защищены</p>
+            <p>Политика конфиденциальности</p>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/basket.bundle.js"></script>
+</body>
+</html>

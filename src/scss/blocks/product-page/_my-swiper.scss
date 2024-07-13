@@ -1,0 +1,28 @@
+.swiper-proposal .swiper-slide {
+  max-width: 270px;
+  width: 100%;
+
+  @include smallLaptop {
+    max-width: 310px;
+  }
+
+  @include tablet {
+    max-width: 250px;
+  }
+
+  @include smallTablet {
+    max-width: 230px;
+  }
+
+  @include mobile {
+    max-width: 250px;
+  }
+
+  @media screen and (max-width: 470px){
+    max-width: 440px;
+  }
+
+  @include smallMobile {
+    max-width: 340px;
+  }
+}
